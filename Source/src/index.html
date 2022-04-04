@@ -50,7 +50,13 @@
           <p class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </p>
-          <a href="" class="btn btn-primary">Link to</a>
+          <a
+            href="#"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            >Link to</a
+          >
         </div>
       </div>
       <div class="card">
@@ -83,7 +89,26 @@
       </div>
     </div>
 
-    <div class="modal"></div>
+    <div class="modal" id="exampleModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button class="close" data-close>
+            <span>&times;</span>
+          </button>
+          <div class="modal-header">
+            <div class="modal-title">Title</div>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+            eligendi repellat nisi voluptas, corrupti ducimus veritatis officia
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-danger">Close</button>
+            <button class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
